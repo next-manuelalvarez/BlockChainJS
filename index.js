@@ -1,1 +1,4 @@
-console.log('hello world');
+import PKG from './package.json';
+
+const {name, version} = PKG;
+console.log(`${name} - ${version}`);

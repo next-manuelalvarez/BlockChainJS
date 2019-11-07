@@ -8,5 +8,9 @@
     "@babel/node": "^7.7.0",
     "@babel/preset-env": "^7.7.1",
     "nodemon": "^1.19.4"
+  },
+  "scripts": {
+    "start": "babel-node index.js",
+    "nodemon": "nodemon --exec yarn start"
   }
 }
